@@ -26,6 +26,8 @@ kubectl expose deployment hello-server \
           --type=LoadBalancer \
           --port 8080
           
+kubectl expose service/hello-server
+
 
 -------------------TASK 3-------------------------
 
